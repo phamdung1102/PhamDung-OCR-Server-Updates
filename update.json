@@ -1,13 +1,13 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.8/PhamDung-OCR-Server-Setup-1.0.8.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.8",
-  "sha256": "579c088c88f7ef034f17a74b706f179054874f2b9d9129080c7db4cefeb4f270",
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.9/PhamDung-OCR-Server-Setup-1.0.9.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.9",
+  "sha256": "f559490e3268b3efad973f6bf8b65866223c641793897b9a88460024590e7bdf",
   "required": false,
   "notes": [
-    "Dashboard on the server can read connected machines through localhost even when an old admin key is still running.",
-    "If an old OCR Server process is holding the configured port with a stale key, the manager stops it and restarts the server with the current key.",
-    "The Update checker uses the GitHub Contents API public channel, avoiding stale raw CDN cache."
+    "Dashboard cập nhật realtime bảng tài khoản từ server đang chạy, không đọc lại pool local làm mất bộ đếm.",
+    "Bảng máy đang kết nối, job, account được poll cùng một nhịp để thấy độ trễ, số batch và lỗi mới nhất.",
+    "Giữ dữ liệu data/accounts khi cập nhật; không cần đăng nhập lại 12 tài khoản."
   ]
 }
