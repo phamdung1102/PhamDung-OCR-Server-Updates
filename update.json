@@ -1,13 +1,13 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.6/PhamDung-OCR-Server-Setup-1.0.6.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.6",
-  "sha256": "098e26bca350f145d220509f0f9a996c73826b4151a6426f748dc974cd2c5ba0",
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.7/PhamDung-OCR-Server-Setup-1.0.7.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.7",
+  "sha256": "c4361227d53beca558260f42fc68b10d90e7e1969f3235b974c652e6fa47689c",
   "required": false,
   "notes": [
     "Dashboard on the server can read connected machines through localhost even when an old admin key is still running.",
     "If an old OCR Server process is holding the configured port with a stale key, the manager stops it and restarts the server with the current key.",
-    "The Update button now reads update.json instead of the GitHub release API."
+    "The Update button can download the installer, verify SHA256, close the app, run the installer silently, and reopen the manager."
   ]
 }
