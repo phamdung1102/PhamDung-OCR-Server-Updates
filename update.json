@@ -1,13 +1,14 @@
-{
-  "version": "1.0.9",
-  "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.9/PhamDung-OCR-Server-Setup-1.0.9.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.9",
-  "sha256": "f559490e3268b3efad973f6bf8b65866223c641793897b9a88460024590e7bdf",
-  "required": false,
-  "notes": [
-    "Dashboard cập nhật realtime bảng tài khoản từ server đang chạy, không đọc lại pool local làm mất bộ đếm.",
-    "Bảng máy đang kết nối, job, account được poll cùng một nhịp để thấy độ trễ, số batch và lỗi mới nhất.",
-    "Giữ dữ liệu data/accounts khi cập nhật; không cần đăng nhập lại 12 tài khoản."
-  ]
+﻿{
+    "version":  "1.0.10",
+    "type":  "installer",
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.10/PhamDung-OCR-Server-Setup-1.0.10.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.10",
+    "sha256":  "ba3ba7d9a4406d389e9c00ff7e49e2cd1056f80e642f0914cc0fc5e879bd16e2",
+    "size":  51288281,
+    "mandatory":  false,
+    "notes":  [
+                  "Sửa thêm tài khoản: slot mới hiện ngay để đăng nhập/chọn token.",
+                  "Bảng máy giữ lựa chọn qua refresh; bật/tắt và thiết lập máy không báo chưa chọn sai.",
+                  "Khi đổi số tài khoản, server do app bật sẽ tự khởi động lại để nhận cấu hình mới."
+              ]
 }
