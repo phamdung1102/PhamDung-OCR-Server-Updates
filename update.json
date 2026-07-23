@@ -1,13 +1,13 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.5/PhamDung-OCR-Server-Setup-1.0.5.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.5",
-  "sha256": "096d2e1b93e7fff6d8e71d4b255967d1c25b511996a89e59c1778d460d9f7428",
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.6/PhamDung-OCR-Server-Setup-1.0.6.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.6",
+  "sha256": "098e26bca350f145d220509f0f9a996c73826b4151a6426f748dc974cd2c5ba0",
   "required": false,
   "notes": [
     "Dashboard on the server can read connected machines through localhost even when an old admin key is still running.",
-    "If the app owns the running server and detects an admin key mismatch, it restarts the server once to sync the key.",
+    "If an old OCR Server process is holding the configured port with a stale key, the manager stops it and restarts the server with the current key.",
     "The Update button now reads update.json instead of the GitHub release API."
   ]
 }
