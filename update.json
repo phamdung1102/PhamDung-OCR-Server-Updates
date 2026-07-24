@@ -1,15 +1,18 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.15/PhamDung-OCR-Server-Setup-1.0.15.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.15",
-  "sha256": "bc3acfc223c543081c36891475aafc008c7c7ad92b5fdb642867f47174844076",
-  "size": 51292022,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.16/PhamDung-OCR-Server-Setup-1.0.16.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.16",
+  "sha256": "69f8636d5bfb606777509a950fd81b7bab7acadd6dd46e3e615eabed0ae1bbd6",
+  "size": 51302747,
   "mandatory": false,
   "notes": [
-    "Bản kiểm tra updater sau khi cài v1.0.14.",
-    "Giữ cơ chế requests/certifi để kiểm tra GitHub và tải installer.",
-    "Installer cập nhật có kiểm SHA256/kích thước, chạy SILENT và tự mở lại app.",
-    "Giữ nguyên cấu hình và dữ liệu đăng nhập trong thư mục data khi cập nhật."
+    "Bổ sung bảng quản trị máy client: chọn nhiều máy, bật/tắt nhiều máy, reset thống kê.",
+    "Thêm copy cấu hình máy con gồm địa chỉ server, API key và endpoint.",
+    "Thêm thống kê tổng realtime: tài khoản sẵn sàng, queue, ký tự và ước tính phí.",
+    "Thêm hàng đợi có dọn job đã xong/lỗi.",
+    "Thêm tạm dừng/tiếp tục nhận job mới.",
+    "Thêm cài/gỡ tự chạy bằng Windows Task Scheduler.",
+    "Sửa lỗi xử lý kết nối/update và cho service nền đọc số luồng từ cấu hình."
   ]
 }
