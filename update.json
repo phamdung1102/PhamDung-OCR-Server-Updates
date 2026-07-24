@@ -1,14 +1,14 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.5/PhamDung-OCR-Server-Setup-1.1.5.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.5",
-  "sha256": "571768a9e9ebf7b3402bb169ee7882721a90aa212a2b60e18d2795f1a1bd61dc",
-  "size": 51323862,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.6/PhamDung-OCR-Server-Setup-1.1.6.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.6",
+  "sha256": "c74675329d55f5be0c1de79965424508baa4647ddf60652da1b81d0e74581a56",
+  "size": 51326622,
   "mandatory": false,
   "notes": [
-    "Store per-client API keys as PBKDF2 hashes and migrate legacy plaintext keys.",
-    "Add auth failure throttling and per-client batch burst rate limiting.",
-    "Add JSONL admin audit log and /v1/audit management endpoint."
+    "Scale OCR account slots with MAX_ACCOUNT_SLOTS instead of fixed 12/20/50 assumptions.",
+    "Reload account slots and workers from server_config without restarting when possible.",
+    "Update setup_accounts CLI and tests for larger pools such as 60 accounts."
   ]
 }
