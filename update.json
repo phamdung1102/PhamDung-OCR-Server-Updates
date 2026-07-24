@@ -1,15 +1,15 @@
 ﻿{
-    "version":  "1.0.12",
+    "version":  "1.0.13",
     "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.12/PhamDung-OCR-Server-Setup-1.0.12.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.12",
-    "sha256":  "b11638a54d89366048370982836b2e8d51bfd00ed387a0ef7c38c6da61258796",
-    "size":  51294026,
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.13/PhamDung-OCR-Server-Setup-1.0.13.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.13",
+    "sha256":  "2757463eae3210fffc8897a29384edb09ae899123c6644878f41d03a1ffca1c8",
+    "size":  51289503,
     "mandatory":  false,
     "notes":  [
-                  "OCR montage mới nhận tối đa 20 ảnh/lượt với marker số rõ cho từng ảnh.",
-                  "Server khai báo centered-v3 để AndrewSub tự bật batch lớn khi tương thích.",
-                  "Nếu marker lệch, client tự chia nhỏ lô và gửi lại.",
-                  "Giữ nguyên dữ liệu đăng nhập tài khoản trong thư mục data/accounts khi cập nhật."
+                  "Sửa cơ chế tự cập nhật: ưu tiên đọc manifest raw GitHub, fallback qua GitHub API.",
+                  "Tải installer có kiểm SHA256 và kích thước file theo manifest.",
+                  "Installer cập nhật chạy rõ hơn bằng chế độ SILENT và tự mở lại app sau khi cài.",
+                  "Giữ nguyên cấu hình và dữ liệu đăng nhập trong thư mục data khi cập nhật."
               ]
 }
