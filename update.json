@@ -1,15 +1,15 @@
-﻿{
-    "version":  "1.0.15",
-    "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.15/PhamDung-OCR-Server-Setup-1.0.15.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.15",
-    "sha256":  "bc3acfc223c543081c36891475aafc008c7c7ad92b5fdb642867f47174844076",
-    "size":  51292022,
-    "mandatory":  false,
-    "notes":  [
-                  "Bản kiểm tra updater sau khi cài v1.0.14.",
-                  "Giữ cơ chế requests/certifi để kiểm tra GitHub và tải installer.",
-                  "Installer cập nhật có kiểm SHA256/kích thước, chạy SILENT và tự mở lại app.",
-                  "Giữ nguyên cấu hình và dữ liệu đăng nhập trong thư mục data khi cập nhật."
-              ]
+{
+  "version": "1.0.15",
+  "type": "installer",
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.15/PhamDung-OCR-Server-Setup-1.0.15.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.15",
+  "sha256": "bc3acfc223c543081c36891475aafc008c7c7ad92b5fdb642867f47174844076",
+  "size": 51292022,
+  "mandatory": false,
+  "notes": [
+    "Bản kiểm tra updater sau khi cài v1.0.14.",
+    "Giữ cơ chế requests/certifi để kiểm tra GitHub và tải installer.",
+    "Installer cập nhật có kiểm SHA256/kích thước, chạy SILENT và tự mở lại app.",
+    "Giữ nguyên cấu hình và dữ liệu đăng nhập trong thư mục data khi cập nhật."
+  ]
 }
