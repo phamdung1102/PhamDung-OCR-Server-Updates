@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.0.19",
+    "version":  "1.1.0",
     "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.19/PhamDung-OCR-Server-Setup-1.0.19.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.19",
-    "sha256":  "bce7927016cdb2ce7fff7e444f2a771e1d59f9169041ebbfec4e853732117184",
-    "size":  51306684,
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.0/PhamDung-OCR-Server-Setup-1.1.0.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.0",
+    "sha256":  "8c873f0e023d74c3e50f9aa09f456c828db079288153ff775dfec701d672b506",
+    "size":  51302791,
     "mandatory":  false,
     "notes":  [
-                  "Sửa tự cập nhật: installer luôn cài đè đúng thư mục app hiện tại, kể cả đường dẫn có dấu cách.",
-                  "Tránh cài nhầm sang thư mục khác khi update OCR Server.",
-                  "Giữ nguyên dữ liệu tài khoản/API key khi cập nhật."
+                  "Bản kiểm tra cơ chế tự cập nhật từ v1.0.19 lên v1.1.0.",
+                  "Giữ nguyên logic v1.0.19; chỉ nâng phiên bản để test updater.",
+                  "Installer tiếp tục cài đè đúng thư mục app hiện tại và giữ nguyên dữ liệu."
               ]
 }
