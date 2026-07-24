@@ -1,14 +1,14 @@
-﻿{
-    "version":  "1.1.0",
-    "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.0/PhamDung-OCR-Server-Setup-1.1.0.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.0",
-    "sha256":  "8c873f0e023d74c3e50f9aa09f456c828db079288153ff775dfec701d672b506",
-    "size":  51302791,
-    "mandatory":  false,
-    "notes":  [
-                  "Bản kiểm tra cơ chế tự cập nhật từ v1.0.19 lên v1.1.0.",
-                  "Giữ nguyên logic v1.0.19; chỉ nâng phiên bản để test updater.",
-                  "Installer tiếp tục cài đè đúng thư mục app hiện tại và giữ nguyên dữ liệu."
-              ]
+{
+  "version": "1.1.1",
+  "type": "installer",
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.1/PhamDung-OCR-Server-Setup-1.1.1.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.1",
+  "sha256": "dba7695ebe3124150d06957f4cfcb040c288060ee7545fa455cbbdd52ea59d71",
+  "size": 51303953,
+  "mandatory": false,
+  "notes": [
+    "Sửa triệt để cơ chế kiểm tra cập nhật: đọc manifest không phụ thuộc GitHub release API.",
+    "Hỗ trợ update.json có hoặc không có BOM; tránh lỗi JSONDecodeError.",
+    "Installer tiếp tục cài đè đúng thư mục app hiện tại và giữ nguyên dữ liệu."
+  ]
 }
