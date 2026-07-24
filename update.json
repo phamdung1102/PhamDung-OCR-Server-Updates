@@ -1,14 +1,14 @@
 {
-  "version": "1.1.7",
+  "version": "1.1.8",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.7/PhamDung-OCR-Server-Setup-1.1.7.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.7",
-  "sha256": "0d3c291377e81aca19ffae5212b015eda7281afaef24278b4dc7781efadb7583",
-  "size": 51326677,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.8/PhamDung-OCR-Server-Setup-1.1.8.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.8",
+  "sha256": "38e167ab36c4afd7212fbbeb45277f84985c10b3bc894cd5f6e7b427cc8fc25c",
+  "size": 51326948,
   "mandatory": false,
   "notes": [
-    "Fix account table rendering after update when account data exists but rows appear blank.",
-    "Use one stable account table renderer for local and runtime account snapshots.",
-    "Force visible account row values and redraw after refresh."
+    "Do not show empty slots as ready when the running server has stale account state.",
+    "Use local token files as the source of truth for account readiness in the dashboard.",
+    "Reset the account table to the first row on normal refresh so lower slots do not hide upper slots."
   ]
 }
