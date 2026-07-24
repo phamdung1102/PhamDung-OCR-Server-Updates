@@ -1,14 +1,15 @@
 ﻿{
-    "version":  "1.0.10",
+    "version":  "1.0.12",
     "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.10/PhamDung-OCR-Server-Setup-1.0.10.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.10",
-    "sha256":  "ba3ba7d9a4406d389e9c00ff7e49e2cd1056f80e642f0914cc0fc5e879bd16e2",
-    "size":  51288281,
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.12/PhamDung-OCR-Server-Setup-1.0.12.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.12",
+    "sha256":  "b11638a54d89366048370982836b2e8d51bfd00ed387a0ef7c38c6da61258796",
+    "size":  51294026,
     "mandatory":  false,
     "notes":  [
-                  "Sửa thêm tài khoản: slot mới hiện ngay để đăng nhập/chọn token.",
-                  "Bảng máy giữ lựa chọn qua refresh; bật/tắt và thiết lập máy không báo chưa chọn sai.",
-                  "Khi đổi số tài khoản, server do app bật sẽ tự khởi động lại để nhận cấu hình mới."
+                  "OCR montage mới nhận tối đa 20 ảnh/lượt với marker số rõ cho từng ảnh.",
+                  "Server khai báo centered-v3 để AndrewSub tự bật batch lớn khi tương thích.",
+                  "Nếu marker lệch, client tự chia nhỏ lô và gửi lại.",
+                  "Giữ nguyên dữ liệu đăng nhập tài khoản trong thư mục data/accounts khi cập nhật."
               ]
 }
