@@ -1,14 +1,14 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.4/PhamDung-OCR-Server-Setup-1.1.4.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.4",
-  "sha256": "084f10e251d19c180c3ba17dc58c316844ae1ae65f68f37d8189f453bfcb2d56",
-  "size": 51317714,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.5/PhamDung-OCR-Server-Setup-1.1.5.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.5",
+  "sha256": "571768a9e9ebf7b3402bb169ee7882721a90aa212a2b60e18d2795f1a1bd61dc",
+  "size": 51323862,
   "mandatory": false,
   "notes": [
-    "Add per-client weighted scheduling and concurrency limits.",
-    "Add per-client queue, batch, daily admission quota, API key, and IP/CIDR policies.",
-    "Improve server-side candidate validation, idempotency, restart recovery, and management UI."
+    "Store per-client API keys as PBKDF2 hashes and migrate legacy plaintext keys.",
+    "Add auth failure throttling and per-client batch burst rate limiting.",
+    "Add JSONL admin audit log and /v1/audit management endpoint."
   ]
 }
