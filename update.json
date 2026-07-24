@@ -1,14 +1,14 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.3/PhamDung-OCR-Server-Setup-1.1.3.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.3",
-  "sha256": "cacb1abf7b5ed8e099cba45b13d156c40de2b35846fc05421a3804b71c59d99b",
-  "size": 51304105,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.4/PhamDung-OCR-Server-Setup-1.1.4.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.4",
+  "sha256": "084f10e251d19c180c3ba17dc58c316844ae1ae65f68f37d8189f453bfcb2d56",
+  "size": 51317714,
   "mandatory": false,
   "notes": [
-    "Fix empty email display for runtime account slots.",
-    "Use local account state as fallback when service has stale RAM state.",
-    "Test auto-update from v1.1.2 to v1.1.3."
+    "Add per-client weighted scheduling and concurrency limits.",
+    "Add per-client queue, batch, daily admission quota, API key, and IP/CIDR policies.",
+    "Improve server-side candidate validation, idempotency, restart recovery, and management UI."
   ]
 }
