@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.0.17",
+    "version":  "1.0.18",
     "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.17/PhamDung-OCR-Server-Setup-1.0.17.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.17",
-    "sha256":  "9e6b74fb1d98e2f913e291a1ae4f7b8b1af8d0814e0882edfd14dc05f14d446b",
-    "size":  51303484,
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.0.18/PhamDung-OCR-Server-Setup-1.0.18.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.0.18",
+    "sha256":  "1a77794d6065ba770fc24c7996fff9a20a602ad61d6da43157ea3dbae0ed29fc",
+    "size":  51304281,
     "mandatory":  false,
     "notes":  [
-                  "Sửa realtime máy/tài khoản: nếu service cũ thiếu API thống kê mới, dashboard vẫn hiển thị dữ liệu từ clients/accounts/jobs.",
-                  "Tránh lỗi bảng máy trống dù VICDub đang gửi OCR bình thường.",
-                  "Giữ tương thích service đang chạy, log rõ khi service cần cập nhật lại."
+                  "Tự đồng bộ service khi đổi số tài khoản/luồng: lưu cấu hình xong nếu server đang chạy cấu hình cũ sẽ tự restart.",
+                  "Dừng đúng OCR server dev/cũ đang giữ port để service bản cài nhận slot mới.",
+                  "Tài khoản thêm mới tự vào pool phân phối sau khi service restart đúng cấu hình."
               ]
 }
