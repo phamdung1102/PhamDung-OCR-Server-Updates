@@ -1,14 +1,14 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.2/PhamDung-OCR-Server-Setup-1.1.2.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.2",
-  "sha256": "948d12324f33e320126344061cd6934827042f42d477062182874b597aaa6f00",
-  "size": 51301887,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.3/PhamDung-OCR-Server-Setup-1.1.3.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.3",
+  "sha256": "cacb1abf7b5ed8e099cba45b13d156c40de2b35846fc05421a3804b71c59d99b",
+  "size": 51304105,
   "mandatory": false,
   "notes": [
-    "Fix UI text encoding in OCR Server.",
-    "Keep existing data and logged-in accounts.",
-    "Keep manifest-first updater."
+    "Fix empty email display for runtime account slots.",
+    "Use local account state as fallback when service has stale RAM state.",
+    "Test auto-update from v1.1.2 to v1.1.3."
   ]
 }
