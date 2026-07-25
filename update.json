@@ -1,14 +1,14 @@
 {
-  "version": "1.1.8",
+  "version": "1.1.9",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.8/PhamDung-OCR-Server-Setup-1.1.8.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.8",
-  "sha256": "38e167ab36c4afd7212fbbeb45277f84985c10b3bc894cd5f6e7b427cc8fc25c",
-  "size": 51326948,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.9/PhamDung-OCR-Server-Setup-1.1.9.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.9",
+  "sha256": "6e211a86a3d8e6e6a3f267ff06d38ac45ae0fbedf504d37fb063fe723dd7a844",
+  "size": 51326181,
   "mandatory": false,
   "notes": [
-    "Do not show empty slots as ready when the running server has stale account state.",
-    "Use local token files as the source of truth for account readiness in the dashboard.",
-    "Reset the account table to the first row on normal refresh so lower slots do not hide upper slots."
+    "OCR montage d?ng marker ASCII ?n ??nh h?n.",
+    "T? chia nh? batch khi marker OCR l?i ?? tr?nh m?t c? l?.",
+    "Gi? th? t? tr? k?t qu? theo input/candidate thay v? sort chu?i."
   ]
 }
