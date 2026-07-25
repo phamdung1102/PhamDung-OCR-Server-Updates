@@ -7,8 +7,8 @@
   "size": 51326181,
   "mandatory": false,
   "notes": [
-    "OCR montage d?ng marker ASCII ?n ??nh h?n.",
-    "T? chia nh? batch khi marker OCR l?i ?? tr?nh m?t c? l?.",
-    "Gi? th? t? tr? k?t qu? theo input/candidate thay v? sort chu?i."
+    "OCR montage uses stable ASCII markers.",
+    "Automatically splits a batch when OCR marker parsing fails.",
+    "Keeps OCR results in input/candidate order instead of string sorting."
   ]
 }
