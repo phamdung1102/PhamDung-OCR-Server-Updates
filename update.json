@@ -1,14 +1,15 @@
-{
-  "version": "1.1.9",
-  "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.1.9/PhamDung-OCR-Server-Setup-1.1.9.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.1.9",
-  "sha256": "6e211a86a3d8e6e6a3f267ff06d38ac45ae0fbedf504d37fb063fe723dd7a844",
-  "size": 51326181,
-  "mandatory": false,
-  "notes": [
-    "OCR montage uses stable ASCII markers.",
-    "Automatically splits a batch when OCR marker parsing fails.",
-    "Keeps OCR results in input/candidate order instead of string sorting."
-  ]
+﻿{
+    "version":  "1.2.0",
+    "type":  "installer",
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.0/PhamDung-OCR-Server-Setup-1.2.0.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.0",
+    "sha256":  "030d3b545b5f12e5016d65518a774717071f4659341c89b49b06dbb6b1031b22",
+    "size":  51329509,
+    "mandatory":  false,
+    "notes":  [
+                  "OCR Server v1.2.0",
+                  "- Bỏ giới hạn cứng 240 ảnh/phút gây nghẽn video dài.",
+                  "- Giới hạn gửi ảnh tự scale theo số worker/tài khoản server.",
+                  "- /health báo client_images_per_minute để kiểm tra tốc độ thực tế."
+              ]
 }
