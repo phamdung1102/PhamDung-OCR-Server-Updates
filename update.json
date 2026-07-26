@@ -1,8 +1,13 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.1/PhamDung-OCR-Server-Setup-1.2.1.exe",
-  "sha256": "9ad13ccc8da33653629ddc60ea1ea3c822bda726fb95d715d3a9bb782afe0af0",
-  "size": 51330272,
-  "notes": "PhamDung OCR Server v1.2.1\n\n- S?a b?ng m?y/t?i kho?n kh?ng c?p nh?t realtime khi API t?ng h?p b? ch?n.\n- N?u /v1/summary l?i 401/404, app v?n d?ng clients/jobs/accounts ?? hi?n th?.\n- B?ng t?i kho?n c?ng th?ng k? job theo account slot ?? th?y t?i kho?n n?o th?t s? ?ang x? l?."
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.2/PhamDung-OCR-Server-Setup-1.2.2.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.2",
+  "sha256": "92315e3b2ac368024e818fee282533b62c76963c0c2094d0e2d47b439210faab",
+  "size": 51335794,
+  "notes": [
+    "Thêm tạo máy trước khi máy kết nối và cấp API key riêng ngay trong app quản trị.",
+    "Thêm xóa máy khỏi danh sách quản trị và hủy job còn chờ của máy đó.",
+    "Sửa manifest update, tài liệu slot động và tránh reset worker khi đọc config cũ."
+  ]
 }
