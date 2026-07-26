@@ -1,13 +1,13 @@
 {
-  "version": "1.2.5",
+  "version": "1.2.6",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.5/PhamDung-OCR-Server-Setup-1.2.5.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.5",
-  "sha256": "793969cd0b89147bbfa0428e83ac9644d87e03ce580cfb476ba56b3af0a84a4d",
-  "size": 51340055,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.6/PhamDung-OCR-Server-Setup-1.2.6.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.6",
+  "sha256": "1792fe4f6570b9d71ed8ce48f3f54ae6d6bbbd627f95a58d31e239a4fd6e61a0",
+  "size": 51337960,
   "notes": [
-    "Nút kiểm tra email thiếu luôn force kiểm tra lại, không bị hàng đợi auto chặn.",
-    "Khi kiểm tra email bắt đầu, app ghi trạng thái và log ngay để biết worker đang chạy.",
-    "Refresh bảng ngay trong quá trình kiểm tra để dễ thấy slot nào đang kiểm tra."
+    "Dashboard không spawn nhiều lần poll chồng nhau khi server phản hồi chậm.",
+    "Tăng timeout đọc danh sách máy/job/account lên 8 giây.",
+    "Chỉ báo mất kết nối sau 2 lần lỗi liên tiếp để tránh cảnh báo giả."
   ]
 }
