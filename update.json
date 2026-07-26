@@ -1,13 +1,13 @@
 {
-  "version": "1.2.6",
+  "version": "1.2.7",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.6/PhamDung-OCR-Server-Setup-1.2.6.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.6",
-  "sha256": "1792fe4f6570b9d71ed8ce48f3f54ae6d6bbbd627f95a58d31e239a4fd6e61a0",
-  "size": 51337960,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.7/PhamDung-OCR-Server-Setup-1.2.7.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.7",
+  "sha256": "8e04636a919bb03b65357d2dc85162468f966a0146a2b51835a9bd73d16dc411",
+  "size": 51334423,
   "notes": [
-    "Dashboard không spawn nhiều lần poll chồng nhau khi server phản hồi chậm.",
-    "Tăng timeout đọc danh sách máy/job/account lên 8 giây.",
-    "Chỉ báo mất kết nối sau 2 lần lỗi liên tiếp để tránh cảnh báo giả."
+    "Có token và credentials thì tài khoản vẫn được chia việc dù email chưa kịp hiển thị.",
+    "Không còn chặn worker chỉ vì thiếu metadata email.",
+    "Slot thiếu email sẽ tự dò nền và hiển thị chi tiết rõ hơn."
   ]
 }
