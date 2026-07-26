@@ -1,13 +1,13 @@
 {
-  "version": "1.2.3",
+  "version": "1.2.4",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.3/PhamDung-OCR-Server-Setup-1.2.3.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.3",
-  "sha256": "44167ad90fcb33b6ed7202c35f23e2d499804463fc81dbecc1fb78bd09247a2b",
-  "size": 51336677,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.4/PhamDung-OCR-Server-Setup-1.2.4.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.4",
+  "sha256": "61f1591552676d82e736e0ee1f592c9d0910c8188a374c4b0b798603bf8bcaf5",
+  "size": 51333308,
   "notes": [
-    "Sửa slot account mới có token nhưng chưa có email vẫn bị hiện ready.",
-    "Chỉ tính account ready sau khi email đã được kiểm tra và lưu.",
-    "Tự kiểm tra lại email cho slot thiếu email thay vì khóa sau một lần thử."
+    "Chuẩn hóa trạng thái account sang tiếng Việt dễ vận hành.",
+    "Thêm kiểm tra email thiếu theo batch và cảnh báo email trùng.",
+    "Cảnh báo khi worker lớn hơn số account ready và copy cấu hình máy con bằng key riêng."
   ]
 }
