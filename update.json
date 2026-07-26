@@ -1,13 +1,13 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.2/PhamDung-OCR-Server-Setup-1.2.2.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.2",
-  "sha256": "92315e3b2ac368024e818fee282533b62c76963c0c2094d0e2d47b439210faab",
-  "size": 51335794,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.2.3/PhamDung-OCR-Server-Setup-1.2.3.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.2.3",
+  "sha256": "44167ad90fcb33b6ed7202c35f23e2d499804463fc81dbecc1fb78bd09247a2b",
+  "size": 51336677,
   "notes": [
-    "Thêm tạo máy trước khi máy kết nối và cấp API key riêng ngay trong app quản trị.",
-    "Thêm xóa máy khỏi danh sách quản trị và hủy job còn chờ của máy đó.",
-    "Sửa manifest update, tài liệu slot động và tránh reset worker khi đọc config cũ."
+    "Sửa slot account mới có token nhưng chưa có email vẫn bị hiện ready.",
+    "Chỉ tính account ready sau khi email đã được kiểm tra và lưu.",
+    "Tự kiểm tra lại email cho slot thiếu email thay vì khóa sau một lần thử."
   ]
 }
