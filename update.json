@@ -1,14 +1,14 @@
 {
-  "version": "1.3.5",
+  "version": "1.3.6",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.5/PhamDung-OCR-Server-Setup-1.3.5.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.5",
-  "sha256": "5605554421c8a6f83221f1a433e1bd7e20b138f1713781d6936d0dec1e27163a",
-  "size": 51362242,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.6/PhamDung-OCR-Server-Setup-1.3.6.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.6",
+  "sha256": "3f265242403afcc2057b85193accab51664efc4a2c75cd34f11f28726388f422",
+  "size": 51363684,
   "notes": [
-    "Bố trí lại giao diện chính thành 3 tab: Tài khoản OCR, Máy khách, API đối tác.",
-    "Gom các nút ít dùng vào menu Thao tác khác để giảm rối.",
-    "Tăng chiều cao bảng trong từng tab và thêm scrollbar cho bảng máy/API.",
-    "Giữ các nút chính ở ngoài: đăng nhập/kiểm tra OCR, thêm/thiết lập/test key máy, thêm/sửa/test API."
+    "Bổ sung trường cấu hình API đối tác: Synthesis URL, Model, Project ID, Default voice.",
+    "Bổ sung Wake URL, Wake service, Wake token cho provider cần đánh thức server.",
+    "Giữ bí mật API key/wake token khi trả dữ liệu provider về giao diện.",
+    "Hỗ trợ thiết lập sẵn provider Qwen ASR và VietAuto Voice để chỉ cần dán API key."
   ]
 }
