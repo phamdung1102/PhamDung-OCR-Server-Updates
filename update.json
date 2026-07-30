@@ -1,14 +1,14 @@
 {
-  "version": "1.3.9",
+  "version": "1.3.10",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.9/PhamDung-OCR-Server-Setup-1.3.9.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.9",
-  "sha256": "9f8d12e049ce1b19ce1813fae6e2f22a1f7db998315d57ff38be5aa3555ca2ed",
-  "size": 51364705,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.10/PhamDung-OCR-Server-Setup-1.3.10.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.10",
+  "sha256": "a48fdc1100cefee2ac9f7a0d025495cc0f4633c69d4d0cf6e2a9d58011e4ab50",
+  "size": 51363388,
   "notes": [
-    "Sửa cấu hình VietAuto Voice theo tài liệu chính thức: Base URL https://vietauto.ai/api.",
-    "Test key VietAuto bằng GET /me với Authorization Bearer.",
-    "Tự migrate provider VietAuto đã có mà không ghi đè API key.",
-    "Giữ luồng voice: POST /elevenlabs và poll GET /elevenlabs?id=<job_id>."
+    "Fix VietAuto Cloudflare 1010 khi test key từ app.",
+    "Thêm User-Agent browser-safe cho request API đối tác.",
+    "Giữ cấu hình VietAuto theo docs: GET /me, POST /elevenlabs, poll GET /elevenlabs?id=<job_id>.",
+    "Không ghi đè API key VietAuto đã dán."
   ]
 }
