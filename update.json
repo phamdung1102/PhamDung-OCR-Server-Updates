@@ -1,14 +1,13 @@
 {
-  "version": "1.3.7",
+  "version": "1.3.8",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.7/PhamDung-OCR-Server-Setup-1.3.7.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.7",
-  "sha256": "f3825664928fed97061a61c66aa08fd9dbb4109544bd0a9662c99c25ddd8ce06",
-  "size": 51364743,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.8/PhamDung-OCR-Server-Setup-1.3.8.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.8",
+  "sha256": "a0ccc4fab8ed89857ddf2234e3fb9b9e262684827440e26d7d6768b253a730d5",
+  "size": 51365777,
   "notes": [
-    "Tự tạo sẵn 2 API đối tác trên máy mới: Qwen ASR và VietAuto Voice.",
-    "Thiết lập sẵn endpoint/model/project/default voice, chỉ cần dán API key.",
-    "Không đóng gói hay đẩy API key lên GitHub.",
-    "Bổ sung test chống lỗi API đối tác không hiện sau cập nhật."
+    "Sửa endpoint kiểm tra VietAuto Voice sang /api/me theo đúng quy trình VICDub.",
+    "Quy trình VietAuto: kiểm tra key /api/me, dùng Project ID, tạo job /api/elevenlabs, poll /api/elevenlabs?id=job.",
+    "Giữ cấu hình Qwen ASR và VietAuto Voice mặc định, API key vẫn do người dùng tự dán."
   ]
 }
