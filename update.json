@@ -1,14 +1,14 @@
 {
-  "version": "1.3.6",
+  "version": "1.3.7",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.6/PhamDung-OCR-Server-Setup-1.3.6.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.6",
-  "sha256": "3f265242403afcc2057b85193accab51664efc4a2c75cd34f11f28726388f422",
-  "size": 51363684,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.7/PhamDung-OCR-Server-Setup-1.3.7.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.7",
+  "sha256": "f3825664928fed97061a61c66aa08fd9dbb4109544bd0a9662c99c25ddd8ce06",
+  "size": 51364743,
   "notes": [
-    "Bổ sung trường cấu hình API đối tác: Synthesis URL, Model, Project ID, Default voice.",
-    "Bổ sung Wake URL, Wake service, Wake token cho provider cần đánh thức server.",
-    "Giữ bí mật API key/wake token khi trả dữ liệu provider về giao diện.",
-    "Hỗ trợ thiết lập sẵn provider Qwen ASR và VietAuto Voice để chỉ cần dán API key."
+    "Tự tạo sẵn 2 API đối tác trên máy mới: Qwen ASR và VietAuto Voice.",
+    "Thiết lập sẵn endpoint/model/project/default voice, chỉ cần dán API key.",
+    "Không đóng gói hay đẩy API key lên GitHub.",
+    "Bổ sung test chống lỗi API đối tác không hiện sau cập nhật."
   ]
 }
