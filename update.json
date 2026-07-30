@@ -1,14 +1,14 @@
 {
-  "version": "1.3.3",
+  "version": "1.3.4",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.3/PhamDung-OCR-Server-Setup-1.3.3.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.3",
-  "sha256": "87523f6959dc9b833dfc2abae293ea3ed4eac17df725a222c4659ca99d0eb20b",
-  "size": 51356705,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.4/PhamDung-OCR-Server-Setup-1.3.4.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.4",
+  "sha256": "f68f84cd1159b95dff09c0aa277d375bc8358d55b51878a71af7db9fd02a0a8d",
+  "size": 51358275,
   "notes": [
-    "Thêm quản trị API đối tác như Alibaba, voice provider, API AI khác.",
-    "Thêm API server để thêm/sửa/bật/tắt/xóa/test provider mà không lộ key thật.",
-    "Thêm bảng API đối tác trong app quản trị.",
-    "Thêm phân quyền dịch vụ allowed_services cho từng máy khách."
+    "Thêm tên hiển thị dễ nhớ cho từng máy, không cần đổi Client ID kỹ thuật.",
+    "Thêm nút Test key máy để kiểm tra API key riêng theo từng máy ngay trong app quản trị.",
+    "Server strip khoảng trắng Client ID để tránh lỗi copy thừa dấu cách.",
+    "Endpoint quản trị mới /v1/admin/clients/test_key trả rõ key sai hay bị IP whitelist chặn."
   ]
 }
