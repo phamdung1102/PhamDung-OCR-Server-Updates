@@ -1,13 +1,14 @@
 {
-  "version": "1.3.8",
+  "version": "1.3.9",
   "type": "installer",
-  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.8/PhamDung-OCR-Server-Setup-1.3.8.exe",
-  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.8",
-  "sha256": "a0ccc4fab8ed89857ddf2234e3fb9b9e262684827440e26d7d6768b253a730d5",
-  "size": 51365777,
+  "url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.9/PhamDung-OCR-Server-Setup-1.3.9.exe",
+  "page_url": "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.9",
+  "sha256": "9f8d12e049ce1b19ce1813fae6e2f22a1f7db998315d57ff38be5aa3555ca2ed",
+  "size": 51364705,
   "notes": [
-    "Sửa endpoint kiểm tra VietAuto Voice sang /api/me theo đúng quy trình VICDub.",
-    "Quy trình VietAuto: kiểm tra key /api/me, dùng Project ID, tạo job /api/elevenlabs, poll /api/elevenlabs?id=job.",
-    "Giữ cấu hình Qwen ASR và VietAuto Voice mặc định, API key vẫn do người dùng tự dán."
+    "Sửa cấu hình VietAuto Voice theo tài liệu chính thức: Base URL https://vietauto.ai/api.",
+    "Test key VietAuto bằng GET /me với Authorization Bearer.",
+    "Tự migrate provider VietAuto đã có mà không ghi đè API key.",
+    "Giữ luồng voice: POST /elevenlabs và poll GET /elevenlabs?id=<job_id>."
   ]
 }
