@@ -1,15 +1,16 @@
 {
-    "version":  "1.3.20",
+    "version":  "1.4.0",
     "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.3.20/PhamDung-OCR-Server-Setup-1.3.20.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.3.20",
-    "sha256":  "b4c4fac5edc03fe0bbee3ecfb237291d76d6df255b3654ccbba3103de6836f06",
-    "size":  51391285,
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.4.0/PhamDung-OCR-Server-Setup-1.4.0.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.4.0",
+    "sha256":  "9ff843500c4d6e0444e2d9434bdc8fe2aec16418626573158f716a62eb330c90",
+    "size":  51392343,
     "notes":  [
                   "Them tab Proxy OCR de quan ly proxy truc tiep tren giao dien server.",
                   "Gan proxy co dinh cho tung account OCR va chia lai account theo proxy dang bat.",
                   "Drive OCR di qua proxy da gan; loi Google quota/503 khong bi tinh nham thanh loi proxy.",
                   "Sua co che kiem tra update de chon manifest version cao nhat khi mot nguon bi cache cu.",
-                  "Form proxy moi cho nhap IP, Port, Giao thuc, Tai khoan, Mat khau rieng de tranh nham URL."
+                  "Form proxy moi cho nhap IP, Port, Giao thuc, Tai khoan, Mat khau rieng de tranh nham URL.",
+                  "Sua giao dien proxy bi mo: nen toi dong bo, chu ro hon va them vi du truc tiep."
               ]
 }
