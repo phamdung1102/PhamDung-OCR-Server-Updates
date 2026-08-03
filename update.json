@@ -1,16 +1,18 @@
 {
-    "version":  "1.4.0",
+    "version":  "1.4.1",
     "type":  "installer",
-    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.4.0/PhamDung-OCR-Server-Setup-1.4.0.exe",
-    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.4.0",
-    "sha256":  "9ff843500c4d6e0444e2d9434bdc8fe2aec16418626573158f716a62eb330c90",
-    "size":  51392343,
+    "url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/download/v1.4.1/PhamDung-OCR-Server-Setup-1.4.1.exe",
+    "page_url":  "https://github.com/phamdung1102/PhamDung-OCR-Server-Updates/releases/tag/v1.4.1",
+    "sha256":  "ca35afcfb6b16b0656eceb769830622ad107919c0f92aae5281fb37c373afbc9",
+    "size":  51394642,
     "notes":  [
                   "Them tab Proxy OCR de quan ly proxy truc tiep tren giao dien server.",
                   "Gan proxy co dinh cho tung account OCR va chia lai account theo proxy dang bat.",
                   "Drive OCR di qua proxy da gan; loi Google quota/503 khong bi tinh nham thanh loi proxy.",
                   "Sua co che kiem tra update de chon manifest version cao nhat khi mot nguon bi cache cu.",
                   "Form proxy moi cho nhap IP, Port, Giao thuc, Tai khoan, Mat khau rieng de tranh nham URL.",
-                  "Sua giao dien proxy bi mo: nen toi dong bo, chu ro hon va them vi du truc tiep."
+                  "Sua giao dien proxy bi mo: nen toi dong bo, chu ro hon va them vi du truc tiep.",
+                  "Bo SOCKS5 khoi form proxy co ban de tranh chon nham; HTTPS proxy tu dong luu dung dang http tunnel.",
+                  "Thong bao ro khi OCR server chua chay/cang 8765 chua mo, khong nham thanh loi proxy."
               ]
 }
